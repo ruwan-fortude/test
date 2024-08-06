@@ -30,3 +30,5 @@ func JSONMiddleware(next http.Handler) http.Handler {
 		next.ServeHTTP(w, r)
 	})
 }
+
+var password = "demothis"
